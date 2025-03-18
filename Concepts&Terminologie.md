@@ -67,4 +67,7 @@
 * les pratiques ITIL
 * VLAN
 * Trunk
+* protocole ceph (contexte gestion centralisée)
+* principes de la haute disponibilité (PRA PCA , Failover, load balancing...)
+* cisco, que sont les ACL
 * 
