@@ -65,3 +65,6 @@
 * les RFC (? lesquels connaître?)
 * Outils ITSM
 * les pratiques ITIL
+* VLAN
+* Trunk
+* 
