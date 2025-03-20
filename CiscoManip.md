@@ -105,6 +105,30 @@
 // après temps écoulé, si branché avec un cable console sur le switch, le terminal pc exigera authentification
 * 
 
+--- utiliser le ssh
+-------------------------------------------------------------
+
+* ip ssh version ? (1 ou 2
+* ip ssh version 2
+* crypto key gen rsa
+* How many bits in the modulus? 2048
+* ip ssh time-out 120
+* ip ssh authentication-retries 4
+*  
+
+
+
+--- configurer vty
+-------------------------------------------------------------
+
+* line vty 0 2 (ligne virtuelle terminal y)
+* (normalement s'ouvre le config-line)
+* login local
+* exec-timeout 3
+* transport input ssh
+* 
+/!\ voir fin du cours (démo 17 lab réseau étape1 part2) et réf github ci dessous pour reprendre, mais je n'ai pas compris l'intérêt ici.
+
 
 
 
