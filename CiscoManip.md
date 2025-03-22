@@ -103,7 +103,15 @@
 * exec-timeout 3
 * end
 // après temps écoulé, si branché avec un cable console sur le switch, le terminal pc exigera authentification
+
+---
+####♠ récap de démo 18 sécuriser line
+* (do) show running-config | section line vty
+* choisir les lignes sur lesquelles on ne veut pas de connexion : line vty 5 15
+* (dans config-line) : no login
+* transport output none (pour empêcher le rebond) (pas clair, à comprendre plus en profondeur)
 * 
+
 
 --- utiliser le ssh
 -------------------------------------------------------------
@@ -128,6 +136,11 @@
 * transport input ssh
 * 
 /!\ voir fin du cours (démo 17 lab réseau étape1 part2) et réf github ci dessous pour reprendre, mais je n'ai pas compris l'intérêt ici.
+
+
+## Démo 18
+
+
 
 
 
