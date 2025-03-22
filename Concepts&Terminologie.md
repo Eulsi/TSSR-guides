@@ -409,3 +409,24 @@ Les ACL (Access Control Lists) chez Cisco sont des listes de règles pour filtre
 
 ---
  **RFC**, **ITIL**, ou **Ceph**, plus de recherche
+
+
+
+
+| Protocole | Description (Acronyme) | Port(s) TCP/UDP | Couche(s) OSI |
+|-----------|------------------------|-----------------|---------------|
+| **HTTP**  | **HyperText Transfer Protocol** : Protocole de communication web pour transférer des données (pages HTML, images, etc.). | TCP 80 | Application |
+| **HTTPS** | **HTTP Secure** : Version sécurisée de HTTP utilisant SSL/TLS pour chiffrer les données. | TCP 443 | Application |
+| **FTP**   | **File Transfer Protocol** : Protocole pour transférer des fichiers entre un client et un serveur. | TCP 20 (données), 21 (contrôle) | Application |
+| **FTPS**  | **FTP Secure** : Version sécurisée de FTP utilisant SSL/TLS. | TCP 989 (données), 990 (contrôle) | Application |
+| **SSH**   | **Secure Shell** : Protocole pour accéder et gérer des systèmes à distance de manière sécurisée. | TCP 22 | Application |
+| **TFTP**  | **Trivial File Transfer Protocol** : Version simplifiée de FTP sans authentification, souvent utilisé pour le démarrage réseau (PXE). | UDP 69 | Application |
+| **SMTP**  | **Simple Mail Transfer Protocol** : Protocole pour envoyer des emails. | TCP 25 | Application |
+| **IMAP**  | **Internet Message Access Protocol** : Protocole pour récupérer des emails depuis un serveur. | TCP 143 (IMAP), 993 (IMAPS) | Application |
+| **LDAP**  | **Lightweight Directory Access Protocol** : Protocole pour interroger et modifier des services d'annuaire (ex : Active Directory). | TCP 389 (LDAP), 636 (LDAPS) | Application |
+| **POP3**  | **Post Office Protocol v3** : Protocole pour récupérer des emails depuis un serveur (téléchargement local). | TCP 110 (POP3), 995 (POP3S) | Application |
+| **DNS**   | **Domain Name System** : Protocole pour résoudre des noms de domaine en adresses IP. | UDP 53 (parfois TCP) | Application |
+| **NTP**   | **Network Time Protocol** : Protocole pour synchroniser l'heure entre les systèmes. | UDP 123 | Application |
+| **ICMP**  | **Internet Control Message Protocol** : Protocole pour envoyer des messages d'erreur et de contrôle (ex : ping). | - (fonctionne sur IP) | Réseau |
+| **DHCP**  | **Dynamic Host Configuration Protocol** : Protocole pour attribuer des adresses IP automatiquement. | UDP 67 (serveur), 68 (client) | Application |
+| **SNMP**  | **Simple Network Management Protocol** : Protocole pour surveiller et gérer les équipements réseau. | UDP 161 (requêtes), 162 (traps) | Application |
