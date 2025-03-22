@@ -71,6 +71,7 @@
 * principes de la haute disponibilité (PRA PCA , Failover, load balancing...)
 * cisco, que sont les ACL
 * protocole ISAKMP --> pour lister les protocoles manipulables cisco, aller dans simulation puis edit filters ipv4 - v6 ou misc
+* norme vlan i3e802.1q
 
 
 ---
