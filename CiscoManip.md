@@ -140,7 +140,12 @@
 
 ## Démo 18
 
-
+* création de VLAN
+* création de trunk
+* A noter que pour qu'une communication fonctionne entre des appareils séparés par différents switch, il faut que ceux-ci disposent du vlan en question.
+* Mais il faut également que les ports dédiés à cette communication soient activés en mode trunk (pour que d'autres vlan puissent passer). Et sur chacun des switch concernés.
+* (donc retirer le switchport mode access, retirer le vlan exotique et no shutdown)
+* 
 
 
 
